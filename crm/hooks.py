@@ -289,6 +289,14 @@ standard_dropdown_items = [
 		"is_standard": 1,
 	},
 	{
+		"name1": "language",
+		"label": "Change Language",
+		"type": "Route",
+		"icon": "globe",
+		"route": "#",
+		"is_standard": 1,
+	},
+	{
 		"name1": "login_to_fc",
 		"label": "Login to Frappe Cloud",
 		"type": "Route",
