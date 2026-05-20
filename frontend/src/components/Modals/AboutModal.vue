@@ -38,37 +38,19 @@
 <script setup>
 import CRMLogo from '@/components/Icons/CRMLogo.vue'
 import LucideGlobe from '~icons/lucide/globe'
-import LucideGitHub from '~icons/lucide/github'
 import LucideHeadset from '~icons/lucide/headset'
-import LucideBug from '~icons/lucide/bug'
-import LucideBookOpen from '~icons/lucide/book-open'
 
 let show = defineModel({ type: Boolean })
 
 let links = [
   {
     label: __('Website'),
-    url: 'https://frappe.io/crm',
+    url: 'https://fereloo.com',
     icon: LucideGlobe,
   },
   {
-    label: __('GitHub Repository'),
-    url: 'https://github.com/frappe/crm',
-    icon: LucideGitHub,
-  },
-  {
-    label: __('Documentation'),
-    url: 'https://docs.frappe.io/crm',
-    icon: LucideBookOpen,
-  },
-  {
-    label: __('Report an Issue'),
-    url: 'https://github.com/frappe/crm/issues',
-    icon: LucideBug,
-  },
-  {
     label: __('Contact Support'),
-    url: 'https://support.frappe.io',
+    url: 'mailto:support@fereloo.com',
     icon: LucideHeadset,
   },
 ]
